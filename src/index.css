@@ -19,6 +19,9 @@ body{
   text-align: center;
   padding: 10px 10px;
 }
+.containerItem:hover{
+  background:linear-gradient(to right,#fdfc47, #24fe41);
+}
 .productName{
   color:white;
   margin-top:15px;
@@ -200,7 +203,7 @@ h1{
   color:#FFF;
 }
 img{
-  width: 100%;
+  width: 90%;
   height:auto;
   border-radius: 20px;
 }
