@@ -16,7 +16,8 @@ export default function ProductDetails() {
      //2. 当有第二个参数， 一个空的array (Dependency Array)时： 只会在first render 时触发而已
      //3. 当Dependency Array 有变数时， 第一次网页render时 + 指定
 
-    fetch('https://hoyinleung.github.io/demoapi/react-basic-product.json')
+    //fetch('https://hoyinleung.github.io/demoapi/react-basic-product.json')
+    fetch('https://94laihan.github.io/react-product-list.json')
     .then((resp) => resp.json())
     .then((dataa) => {
       let productInfo = dataa.find((element)=> element.id === parseInt(params.pId))
